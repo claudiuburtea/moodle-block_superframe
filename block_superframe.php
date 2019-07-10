@@ -49,12 +49,22 @@ to register your plugin in the plugins database
  *
  */
 
+
+/**
+ * Allow block configuration.
+ */
+
+
 class block_superframe extends block_base {
     /**
      * Initialize our block with a language string.
      */
     function init() {
         $this->title = get_string('pluginname', 'block_superframe');
+    }
+
+    function has_config() {
+        return true;
     }
 
     /**

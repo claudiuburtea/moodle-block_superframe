@@ -36,6 +36,15 @@ $string['welcomeuser'] = 'Welcome {$a->firstname} {$a->lastname}<br/>';
 $string['guest'] = 'Welcome Guest<br/>';
 $string['message'] = 'I am a great developer';
 $string['viewlink'] = 'View Page';
+$string['url'] = 'iFrame URL';
+$string['width'] = 'Width';
+$string['height'] = 'Height';
+$string['page_layout'] = 'Page Layout';
+$string['url_details'] = 'iFrame URL to display';
+$string['width_details'] = 'Width of the frame (px)';
+$string['height_details'] = 'Height of the frame (px)';
+$string['page_layout_details'] = 'Select a preferred page layout';
+
 
 // Capability strings
 $string['superframe:addinstance'] = 'Add a new Super frame block';
